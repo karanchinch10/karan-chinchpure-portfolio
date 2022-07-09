@@ -1,0 +1,14 @@
+@keyframes gradient {
+    10% {
+        background-position: 0% 20%;
+    }
+    10% {
+        background-position: 100% 20%;
+    }
+    10% {
+        background-position: 0% 20%;
+    }
+}
+background: linear-gradient(45deg, rgb(0, 0, 0), rgb(10, 31, 28), rgb(59, 5, 21), rgb(47, 18, 58), #F08080, rgb(1, 21, 26)) 0% 0% / 1200% 1200%;
+
+animation: gradient 30s ease-in-out infinite;

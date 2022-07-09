@@ -1,0 +1,439 @@
+.navbar  {
+    /*whichever you want*/
+    background-image: linear-gradient(to right, rgb(185, 255, 139), rgba(255,0,0,0), rgb(255, 204, 64), rgb(255, 77, 32));
+    /*background-color: rgb(255, 200, 82);
+    /*0.5 determines transparency value*/
+    opacity: 0.8;
+    font-weight: bold; 
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*Background-color*/
+
+#ab123{
+    color:black;
+}
+#bd123{
+    color: blue;
+    stop-opacity: None;
+}
+.bg-color {
+    background-image: url("my_img.jpg");
+    background-size: 200% 200%;
+    display: inline-block;
+    height: 700px;
+    
+}
+
+.heading {
+    margin-top: 120px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 253, 106);
+}
+
+.heading2 {
+    margin-bottom: 50px;
+}
+#zz12{
+    color: red;
+}
+.social-icons:hover {
+    color: orangered
+    
+    
+}
+.social-icons {
+    color: #fff;
+}
+.pj123{
+    font-weight: bold;
+}
+
+
+.typewriter {
+    /* Ensures the content is not revealed until the animation */
+    overflow: hidden;
+    /* Ensures the content stays on same line */
+    white-space: nowrap;
+    margin: 0 auto;
+    color: white;
+    /* Gives that scrolling effect as the typing happens */
+    animation: typing 8s steps(30, end)
+}
+
+/* The typing effect */
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+    to {
+        width: 100%
+    }
+}
+
+.about-me {
+    margin-top: 10px
+}
+
+/*Profile pic border*/
+
+.profile {
+    margin-top: 20px;
+    border-bottom-left-radius: 25% 15%;
+    border-bottom-right-radius: 25% 15%;
+}
+
+/*About Me*/
+
+.about-section {
+    background-color: white;
+}
+#cd123{
+    color: black;
+    font-weight: bold;
+}
+.para-me {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    word-break: break-all;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: Verdana;
+    margin-top: 8px;
+}
+
+/*Skills section*/
+
+.skills {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.my-skills {
+    display: inline-block;
+    background: #F0F0F0;
+}
+
+/*Skills tab*/
+
+#nav-tab {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.technical-tab,
+.soft-tab {
+    color: #000;
+    font-size: 20px;
+}
+
+.progress {
+    height: 16px;
+    border-radius: 15px;
+    margin-top: -6px;
+    background-color: #fff;
+}
+
+/*Progress/skill bar inner color*/
+
+.progress-bar-html {
+    background-color: rgb(30, 144, 236);
+    border-radius: 15px;
+}
+
+.progress-bar-css {
+    background-color: rgb(30, 144, 236);
+    border-radius: 15px;
+}
+
+.progress-bar-bootstrap {
+    background-color: rgb(30, 144, 236);
+    border-radius: 15px;
+}
+
+.progress-bar-python {
+    background-color: rgb(30, 144, 236);
+    border-radius: 15px;
+}
+
+.progress-bar-mysql {
+    background-color: rgb(30, 144, 236);
+    border-radius: 15px;
+}
+
+.progress-bar-flask {
+    background-color: rgb(30, 144, 236);
+    border-radius: 15px;
+}
+
+.progress-bar-js {
+    background-color: rgb(30, 144, 236);
+    border-radius: 15px;
+}
+
+.progress-bar-jquery {
+    background-color: rgb(30, 144, 236);
+    border-radius: 15px;
+}
+
+.progress-bar-git {
+    background-color: rgb(30, 144, 236);
+    border-radius: 15px;
+}
+
+/*Progress bar animation*/
+
+.progress-bar.active,
+.progress.active .progress-bar {
+    -webkit-animation: progress-bar-stripes 1s linear infinite;
+    -o-animation: progress-bar-stripes 0.3s linear infinite;
+    animation: progress-bar-stripes 0.4s linear infinite;
+}
+
+/*Progress bar align middle*/
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+/*Project section*/
+
+.project-section {
+    background: #F8F8F8;
+    display: inline-block;
+}
+
+.projects {
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-header {
+    background-color: grey;
+}
+
+.card-title {
+    margin-top: 10px;
+}
+
+/*On-hover effect on images*/
+
+a img:hover {
+    position: relative;
+    top: -10px;
+}
+
+.btn-space {
+    margin-right: 8px;
+}
+
+.btn-center {
+    display: flex;
+    justify-content: center;
+}
+
+.badge {
+    display: flex;
+    justify-content: center;
+}
+
+.img-container {
+    margin-top: 30px;
+}
+
+.footer {
+    background-color: #F0F0F0;
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    word-break: break-all;
+    text-align: center;
+    width: 100%;
+}
+
+.badge-dark {
+    background-color: red;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.badge-footer {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+}
+
+.badge-footer:hover {
+    color: #fff;
+}
+
+.footer-end {
+    margin-top: -12px;
+    font-size: 10px;
+    margin-bottom: 50px;
+    font-weight: bolder;
+}
+
+/*Media queries for responsive design*/
+
+@media screen and (min-width: 280px) {
+    .heading {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .heading {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 300px) {
+    .heading {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width: 350px) {
+    .heading {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 370px) {
+    .heading {
+        font-size: 46px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .heading {
+        font-size: 49px;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .heading {
+        font-size: 49px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .heading {
+        font-size: 50px;
+        margin-top: 90px;
+    }
+}
+
+@media screen and (min-width: 200px) {
+    .heading2 {
+        font-size: 9px;
+    }
+}
+
+@media screen and (min-width: 320px) {
+    .heading2 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 410px) {
+    .heading2 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .heading2 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    .heading2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .img-container {
+        float: left;
+        width: 33.33%;
+        padding: 20px;
+    }
+    .certificates::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+@media screen and (min-width: 200px) {
+    .technical-tab,
+    .soft-tab {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .technical-tab,
+    .soft-tab {
+        font-size: 20px;
+    }
+}
+
+
+.fa-brands {
+    color: rgb(85, 144, 231);
+    
+
+    
+   
+
+}
+.iconify {
+    color: rgb(42, 150, 238);
+    background-color: #afd511;
+    margin-left: 9px;
+    background-color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    width: 35px;
+    height: 37px;
+    margin-left: 4px;
+    background-size: 50px,50px;
+    border-radius: 2px;
+}
+.iconify:hover {
+    color: orangered
+}
+.social {
+    height: 45px;
+}
+
+#ct{
+    font-weight: bold;
+}
