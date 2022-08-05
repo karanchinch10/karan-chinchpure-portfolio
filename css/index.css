@@ -411,7 +411,7 @@ a img:hover {
     .technical-tab,
     .soft-tab {
         font-size: 15px;
-    }    
+    }
     .title {
         font-size: 15px;
     }
@@ -419,8 +419,25 @@ a img:hover {
         font-size: 35px;
     }
     .btn  {
+        font-size: 12px;
+    }
+    .card-header{
+        font-size: 16px;
+    }
+    header_project{
         font-size: 15px;
     }
+    .rtt1  {
+        text-align: left;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    #para123{
+        font-size: 15px;
+    }
+
+
 }
 @media screen and (min-width: 400px) {
     .col-8 {
@@ -429,15 +446,26 @@ a img:hover {
     .title {
         font-size: 17px;
     }
-    .technical-tab,
-    .soft-tab {
-        font-size: 17px;
-    }    
     .heading {
         font-size: 45px;
     }
     .btn  {
         font-size: 20px;
+    }
+    .card-header{
+        font-size: 16px;
+    }
+    .btn {
+        font-size: 18px;
+    }
+    .rtt1  {
+        text-align: left;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 12px;
+    }
+    #para123{
+        font-size: 15px;
     }
 }
 @media screen and (min-width: 900px) {
@@ -453,12 +481,15 @@ a img:hover {
     .btn  {
         font-size: 20px;
     }
-}
+    .card-header{
+        font-size: 20px;
+    }
 
+}
 
 .fa-brands {
     color: rgb(85, 144, 231);
-    
+   
 
     
    
@@ -491,7 +522,4 @@ a img:hover {
     text-align: left;
     margin-left: 10px;
     margin-right: 10px;
-}
-.btn {
-    font-size: 18px;
 }
