@@ -487,3 +487,11 @@ a img:hover {
 #ct{
     font-weight: bold;
 }
+.rtt1  {
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn {
+    font-size: 12px;
+}
