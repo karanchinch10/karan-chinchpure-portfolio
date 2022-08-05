@@ -436,6 +436,17 @@ a img:hover {
     #para123{
         font-size: 15px;
     }
+    .bg-color {
+        background-image: url("my_img.jpg");
+        display: inline-block;
+        height: 500px;
+        
+    }
+    .img-fluid {
+        height: 150px;
+        width: 270px;
+
+    }
 
 
 }
@@ -466,6 +477,17 @@ a img:hover {
     }
     #para123{
         font-size: 15px;
+    }
+    .bg-color {
+        background-image: url("my_img.jpg");
+        display: inline-block;
+        height: 500px;
+        
+    }
+    .img-fluid {
+        height: 150px;
+        width: 270px;
+
     }
 }
 @media screen and (min-width: 900px) {
