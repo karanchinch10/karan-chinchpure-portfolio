@@ -404,6 +404,48 @@ a img:hover {
         font-size: 20px;
     }
 }
+@media screen and (min-width: 300px) {
+    .col-8 {
+        width: 300px;
+    }
+    .title {
+        font-size: 15px;
+    }
+    .heading {
+        font-size: 35px;
+    }
+    .btn  {
+        font-size: 15px;
+    }
+}
+@media screen and (min-width: 400px) {
+    .col-8 {
+        width: 350px;
+    }
+    .title {
+        font-size: 17px;
+    }
+    .heading {
+        font-size: 45px;
+    }
+    .btn  {
+        font-size: 20px;
+    }
+}
+@media screen and (min-width: 900px) {
+    .col-8 {
+        width: 800px;
+    }
+    .title {
+        font-size: 20px;
+    }
+    .heading {
+        font-size: 55px;
+    }
+    .btn  {
+        font-size: 20px;
+    }
+}
 
 
 .fa-brands {
