@@ -439,14 +439,10 @@ a img:hover {
     .bg-color {
         background-image: url("my_img.jpg");
         display: inline-block;
-        height: 550px;
+        height: 600px;
         
     }
-    .img-fluid {
-        height: 180px;
-        width: 270px;
 
-    }
 
 
 }
@@ -481,14 +477,9 @@ a img:hover {
     .bg-color {
         background-image: url("my_img.jpg");
         display: inline-block;
-        height: 550px;
-        
+        height: 600px;
     }
-    .img-fluid {
-        height: 150px;
-        width: 270px;
 
-    }
 }
 @media screen and (min-width: 900px) {
     .col-8 {
@@ -511,9 +502,6 @@ a img:hover {
 
 .fa-brands {
     color: rgb(85, 144, 231);
-   
-
-    
    
 
 }
