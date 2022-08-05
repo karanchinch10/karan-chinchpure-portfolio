@@ -429,6 +429,10 @@ a img:hover {
     .title {
         font-size: 17px;
     }
+    .technical-tab,
+    .soft-tab {
+        font-size: 17px;
+    }    
     .heading {
         font-size: 45px;
     }
