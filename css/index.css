@@ -408,6 +408,10 @@ a img:hover {
     .col-8 {
         width: 300px;
     }
+    .technical-tab,
+    .soft-tab {
+        font-size: 15px;
+    }    
     .title {
         font-size: 15px;
     }
